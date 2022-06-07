@@ -1,16 +1,16 @@
 @font-face {
-    font-family: 'Cabin';
-    src: url("assets/fonts/Cabin-Regular.ttf");
+    font-family: 'Raleway';
+    src: url("assets/fonts/Raleway-Regular.ttf");
     font-weight: 400;
 }
 @font-face {
-    font-family: 'Cabin';
-    src: url("assets/fonts/Cabin-Bold.ttf");
+    font-family: 'Raleway';
+    src: url("assets/fonts/Raleway-Bold.ttf");
     font-weight: 700;
 }
 
 body {
-    font-family: 'Cabin';
+    font-family: 'Raleway';
     color: #3a3843;
     min-height: 100vh;
     margin: 0; padding: 0;
