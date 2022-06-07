@@ -24,7 +24,37 @@ body {
     border: 1px solid red;
 }
 
+html {
+    scroll-behavior: smooth; 
+  }
+
 .img {
     border: 0px;
     border-radius: 50%;
+}
+
+.header {
+    background-color: #b3c7ac;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-link {
+    padding: 0 20px;
+    transition: .3s;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #537056;
 }
