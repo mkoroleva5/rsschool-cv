@@ -28,7 +28,7 @@ html {
     scroll-behavior: smooth; 
   }
 
-.img {
+.main-img {
     border: 0px;
     border-radius: 50%;
 }
@@ -49,6 +49,7 @@ html {
     padding: 0 20px;
     transition: .3s;
     color: white;
+    transition: .3s;
 }
 
 a {
@@ -57,4 +58,16 @@ a {
 
 a:hover {
     color: #537056;
+}
+
+.contacts-list {
+    list-style: none;
+}
+
+.contacts-list li img {
+    margin-right: 10px;
+}
+
+.contacts-list li p {
+    display: inline;
 }
