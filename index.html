@@ -23,9 +23,12 @@
         </nav>
     </header>
     <main class = "main">
-        <div class="column-left">
+        <div class="column column-left">
+            <section class="section-name d-lg-none">
+                <h1>Maria Koroleva</h1>
+            </section>
             <section class="section">
-                <img class="main-img" src="assets/img/IMG_5140.jpg" alt="my photo" width="240" height="240">
+                <img class="main-img" src="assets/img/IMG_5142.jpg" alt="my photo" width="240" height="240">
             </section>
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
@@ -72,8 +75,8 @@
                 </ul>
             </section>
         </div>
-        <div class="column-right">
-            <section class="section-name">
+        <div class="column column-right">
+            <section class="section-name d-none">
                 <h1>Maria Koroleva</h1>
             </section>
             <section class="section" id="summary">
@@ -83,45 +86,71 @@
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">Code example</h2>
-                <code>
-                    <p>function sum(a, b) {</p>
-                    <p>return a + b;</p>
-                    <p>}</p>
-                    <br>
-                    <p>let result = sum(1, 2);</p>
-                    <p>alert( result );</p>
-                </code>
+                <pre>
+                    <code>
+                    function sum(a, b) {
+                        return a + b;
+                      }
+                          
+                      let result = sum(1, 2);
+                      alert( result );
+                    </code>
+                </pre>
             </section>
             <section class="section" id="experience">
                 <h2 class="section-title">Experience</h2>
-                <p>2017-2022</p>
-                <p>Biogarden LLC (Minsk)</p>
-                <p>Head of E-commerce</p>
+                <div class="exp">
+                    <p class="date">2017-2022</p>
+                    <div class="exp-list">
+                        <p class="org-name">Biogarden LLC (Minsk, Belarus)</p>
+                        <p>Head of E-commerce</p>
+                    </div>
+                </div>
                 <br>
-                <p>2016</p>
-                <p>Farmin ALC (Minsk)</p>
-                <p>Sales representative</p>
+                <div class="exp">
+                    <p class="date">2016</p>
+                    <div class="exp-list">
+                        <p class="org-name">Farmin ALC (Minsk, Belarus)</p>
+                        <p>Sales representative</p>
+                    </div>
+                </div>
                 <br>
-                <p>2015</p>
-                <p>Tour operator Gartour (Milan, Italy)</p>
-                <p>Tourism manager</p>
+                <div class="exp">
+                    <p class="date">2015</p>
+                    <div class="exp-list">
+                        <p class="org-name">Tour operator Gartour (Milan, Italy)</p>
+                        <p>Tourism manager</p>
+                    </div>
+                </div>
                 <br>
-                <p>2013-2014</p>
-                <p>Embassy of Italian Republic in Belarus (Minsk)</p>
-                <p>Account manager</p>
+                <div class="exp">
+                    <p class="date">2013-2014</p>
+                    <div class="exp-list">
+                        <p class="org-name">Embassy of Italian Republic in Belarus (Minsk, Belarus)</p>
+                        <p>Account manager</p>
+                    </div>
+                </div>
             </section>
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
-                <p>2011-2016</p>
-                <p>Belorussian State University, Faculty of International Relations</p>
-                <p>Qualification: economist-manager and interpreter-translator (English and Italian languages)</p>
+                <div class="exp">
+                    <p class="date">2011-2016</p>
+                    <div class="exp-list">
+                        <p class="org-name">Belorussian State University, Faculty of International Relations</p>
+                        <p>Qualification: economist-manager and interpreter-translator (English and Italian languages)</p>
+                    </div>
+                </div>
                 <br>
-                <p>Courses</p>
-                <ul>
-                    <li>HTML and CSS Courses on codecademy.com (completed)</li>
-                    <li>JavaScript Manual on learnjavascript.ru (in progress)</li>
-                    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-                </ul>
+                <div class="exp">
+                    <p class="date">Courses</p>
+                    <div class="exp-list">
+                        <ul>
+                            <li>HTML and CSS Courses on codecademy.com (completed)</li>
+                            <li>JavaScript Manual on learnjavascript.ru (in progress)</li>
+                            <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
