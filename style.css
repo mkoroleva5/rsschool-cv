@@ -21,7 +21,7 @@ body {
 
 * {
     box-sizing: border-box;
-    <!--border: 1px solid red;-->
+    (border: 1px solid red;)
 }
 
 html {
@@ -29,20 +29,26 @@ html {
   }
 
 .main-img {
+    width: 240px;
+    height: 240px;
+    display: block;
+    margin: 10px auto;
     border: 1px solid white;
     border-radius: 50%;
 }
 
 .header {
-    background-color: #b3c7ac;
+    background-color: #92a48b;
 }
 
 .nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
     font-size: 20px;
+    
 }
 
 .nav-link {
@@ -57,7 +63,7 @@ a {
 }
 
 a:hover {
-    color: #537056;
+    color: #465f46;
 }
 
 .contacts-list {
@@ -77,16 +83,19 @@ a:hover {
 
 
 .column-left {
-    width: 30%;
-    padding: 0px 30px;
+    width: 25% auto;
+    padding: 0px 20px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    background-color: #b3c7ac;
+    background-color: #92a48b;
+    color: white;
 }
 
 .column-right {
-    width: 70%;
-    padding: 0px 30px;
+    width: 75% auto;
+    padding: 0px 20px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -105,7 +114,7 @@ h1 {
     padding: 0px 5px;
     display: flex;
     flex-direction: column;
-    background-color: #b3c7ac;
+    background-color: #92a48b;
     color: white;
     font-weight: bold;
     font-size: 16px;
@@ -140,7 +149,12 @@ pre {
     .column {
         width: 100%;
     }
-}
+
+    h1 {
+        text-align: center;
+    }
+}    
+
 
 @media (min-width: 768px) {
     .d-lg-none {
