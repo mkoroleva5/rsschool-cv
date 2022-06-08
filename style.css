@@ -21,7 +21,7 @@ body {
 
 * {
     box-sizing: border-box;
-    (border: 1px solid red;)
+    border: 1px solid red;
 }
 
 html {
@@ -38,7 +38,7 @@ html {
 }
 
 .header {
-    background-color: #92a48b;
+    background-color: #94af8a;
 }
 
 .nav {
@@ -58,21 +58,14 @@ html {
     transition: .3s;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color: #465f46;
-}
-
 .contacts-list {
     list-style: none;
     text-align: left;
     padding: 0px;
 }
 
-.contacts-list li img {
+.contacts-list li img,
+.footer img {
     margin-right: 10px;
 
 }
@@ -81,20 +74,23 @@ a:hover {
     display: inline;
 }
 
+.contacts-list a {
+    color: white;
+}
 
 .column-left {
     width: 25% auto;
-    padding: 0px 20px;
+    padding: 0px 30px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    background-color: #92a48b;
+    background-color: #bad0b2;
     color: white;
 }
 
 .column-right {
     width: 75% auto;
-    padding: 0px 20px;
+    padding: 0px 30px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -105,8 +101,8 @@ a:hover {
 }
 
 h1 {
-    padding: 20px 0px;
-    font-size: 36px;
+    font-size: 38px;
+    align-items: center;
 }
 
 .date {
@@ -114,7 +110,7 @@ h1 {
     padding: 0px 5px;
     display: flex;
     flex-direction: column;
-    background-color: #92a48b;
+    background-color: #94af8a;
     color: white;
     font-weight: bold;
     font-size: 16px;
@@ -141,6 +137,25 @@ pre {
     background-color: #ecede5;
 }
 
+.footer {
+    display: flex;
+    background-color: #94af8a;
+    color: white;
+    padding: 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer div a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.footer div a:hover {
+    color: #465f46;
+}
+
 @media (max-width: 768px) {
     .main {
       flex-direction: column;
@@ -155,7 +170,6 @@ pre {
     }
 }    
 
-
 @media (min-width: 768px) {
     .d-lg-none {
         display: none;
@@ -166,4 +180,12 @@ pre {
     .d-none {
         display: none;
     }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #465f46;
 }
