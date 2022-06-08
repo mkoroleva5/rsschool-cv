@@ -105,6 +105,22 @@ h1 {
     align-items: center;
 }
 
+code {
+    font-size: 16px;
+}
+
+.js-keyword {
+    color: #5353a3;
+}
+
+.js-function {
+    color: #d2d25d;
+}
+
+.js-result {
+    color: #7eb5d5;
+}
+
 .date {
     width: 100px;
     padding: 0px 5px;
