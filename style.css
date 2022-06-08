@@ -66,8 +66,43 @@ a:hover {
 
 .contacts-list li img {
     margin-right: 10px;
+
 }
 
 .contacts-list li p {
     display: inline;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.column-left {
+    width: 30%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #b3c7ac;
+}
+
+.column-right {
+    width: 70%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+}
+
+.section-name {
+    height: 240px;
+}
+
+h1 {
+    padding: 40px 0px;
+    font-size: 36px;
 }
