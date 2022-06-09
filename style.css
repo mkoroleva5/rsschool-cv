@@ -12,8 +12,6 @@
 body {
     font-family: 'Raleway';
     color: #3a3843;
-    margin: 0 auto;
-    position: absolute;
     display: flex;
     flex-direction: column;
 }
@@ -104,6 +102,13 @@ h1 {
     align-items: center;
 }
 
+hr {
+    border: 0;
+    background-color: #ecede5;
+    height: 3px;
+    
+}
+
 code {
     font-size: 16px;
 }
@@ -152,6 +157,10 @@ pre {
     background-color: #ecede5;
 }
 
+#education {
+    margin: 0px 0px 20px 0px;
+}
+
 .footer {
     display: flex;
     background-color: #94af8a;
@@ -168,7 +177,7 @@ pre {
 }
 
 .footer div a:hover {
-    color: #465f46;
+    color: red;
 }
 
 @media (max-width: 768px) {
