@@ -3,6 +3,7 @@
     src: url("assets/fonts/Raleway-Regular.ttf");
     font-weight: 400;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: url("assets/fonts/Raleway-Bold.ttf");
@@ -55,8 +56,9 @@ html {
 
 .contacts-list li img,
 .footer img {
-    margin-right: 10px;
+    margin: 5px 10px 5px 0;
 
+    vertical-align: middle;
 }
 
 .contacts-list li p {
@@ -115,6 +117,27 @@ code {
 
 .js-result {
     color: #7eb5d5;
+}
+
+#projects {
+    width: 100%;
+}
+
+#projects a img {
+    height: 145px;
+    width: 229px;
+    margin-top: 5px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#projects a img {
+    text-decoration: none;
+    transition: .5s;
+}
+
+#projects a img:hover {
+    box-shadow: 5px 5px 15px #d7ddd3;
 }
 
 .date {
@@ -200,6 +223,16 @@ body {
     .d-lg-none {
         display: none;
     }
+
+    .projects-block {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #code {
+        margin-right: 30px;
+    }
+    
 }
 
 @media (max-width: 768px) {
