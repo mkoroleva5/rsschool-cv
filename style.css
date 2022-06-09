@@ -9,16 +9,8 @@
     font-weight: 700;
 }
 
-body {
-    font-family: 'Raleway';
-    color: #3a3843;
-    display: flex;
-    flex-direction: column;
-}
-
 * {
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 html {
@@ -178,6 +170,16 @@ pre {
 
 .footer div a:hover {
     color: red;
+}
+
+body {
+    font-family: 'Raleway';
+    color: #3a3843;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 5px 20px #e6ebe3;
 }
 
 @media (max-width: 768px) {
