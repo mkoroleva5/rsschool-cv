@@ -240,6 +240,39 @@ body {
     .d-none {
         display: none;
     }
+
+    .main-img {
+        margin-top: 30px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .nav-menu {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+    }
+
+    .nav-menu span {
+        width: 30px;
+        height: 3px;
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        background-color: white;
+    }
+
+    .nav-menu span:nth-of-type(2) {
+        top: 30px;
+    }
+
+    .nav-menu span:nth-of-type(3) {
+        top: 40px;
+    }
 }
 
 @media (width: 768px) {
