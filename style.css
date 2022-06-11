@@ -35,15 +35,12 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    align-items: center;
     list-style: none;
     font-size: 20px;
-    
 }
 
 .nav-link {
     padding: 0 20px;
-    transition: .3s;
     color: white;
     transition: .5s;
 }
@@ -249,6 +246,26 @@ body {
 }
 
 @media (max-width: 768px) {
+    #button:checked ~ .menu-button > span {
+        transform: rotate(45deg);
+        transition: 0.5s;
+    }
+
+    #button:checked ~ .menu-button > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+
+    #button:checked ~ .menu-button > span::after {
+        top: 0;
+        transform: rotate(90deg);
+        transition: 0.5s;
+    }
+
+    #button:checked ~ .nav-list {
+        visibility: visible;
+    }
+
     #button {
         display: none;
     }
@@ -286,35 +303,23 @@ body {
         top: 10px;
     }
 
-    .nav {
-        display: block;
+    .nav-list {
         position: fixed;
         width: 100%;
-        padding: 10px;
-        margin-top: 0;
         background-color:#94af8a;
         opacity: 0.9;
-        visibility: hidden
+        visibility: hidden;
     }
 
-    #button:checked ~ .menu-button > span {
-        transform: rotate(45deg);
-        transition: 0.5s;
+    .nav-link {
+        padding: 5px;
+        margin: 5px;
+        transition: 0s;
     }
 
-    #button:checked ~ .menu-button > span::before {
-        top: 0;
-        transform: rotate(0);
-    }
-
-    #button:checked ~ .menu-button > span::after {
-        top: 0;
-        transform: rotate(90deg);
-        transition: 0.5s;
-    }
-
-    #button:checked + label + nav {
-        visibility: visible;
+    .nav {
+        justify-content: left;
+        padding: 0 50px 0 20px;
     }
 }
 
