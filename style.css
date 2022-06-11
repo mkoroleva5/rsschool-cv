@@ -18,6 +18,16 @@ html {
     scroll-behavior: smooth; 
   }
 
+body {
+    font-family: 'Raleway';
+    color: #3a3843;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 5px 20px #e6ebe3;
+}
+
 .main-img {
     width: 240px;
     height: 240px;
@@ -42,7 +52,7 @@ html {
 .nav-link {
     padding: 0 20px;
     color: white;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .contacts-list {
@@ -63,6 +73,15 @@ html {
 
 .contacts-list a {
     color: white;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #465f46;
 }
 
 .column-left {
@@ -122,7 +141,7 @@ code {
 
 #projects a img {
     text-decoration: none;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 #projects a img:hover {
@@ -182,16 +201,6 @@ pre {
 
 .footer div a:hover {
     color: #465f46;
-}
-
-body {
-    font-family: 'Raleway';
-    color: #3a3843;
-    max-width: 1024px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 10px 5px 20px #e6ebe3;
 }
 
 @media (max-width: 768px) {
@@ -331,13 +340,4 @@ body {
     #projects a img {
         height: auto;
     }
-}
-
-a {
-    text-decoration: none;
-    transition: .5s;
-}
-
-a:hover {
-    color: #465f46;
 }
