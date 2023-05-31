@@ -171,6 +171,7 @@ hr {
   color: #3a3843;
   font-weight: bold;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .project-title:hover {
