@@ -132,13 +132,15 @@ hr {
 }
 
 .location {
-  display: flex;
-  gap: 5px;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
 .location-icon {
   margin: 9px 10px 5px 0;
+}
+
+.contacts__email {
+  margin: 0;
 }
 
 .about {
