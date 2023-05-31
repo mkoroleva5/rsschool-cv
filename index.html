@@ -11,49 +11,45 @@
   <body>
     <main class="main">
       <div class="column column-left">
-        <div class="section">
-          <img class="main-img" src="assets/img/my-photo.jpg" alt="my photo" />
-        </div>
-        <section class="section-name d-lg-none">
-          <h1>Maria Koroleva</h1>
-        </section>
-        <section class="section" id="contacts">
-          <h2 class="section-title">Contacts</h2>
-          <ul class="contacts-list">
-            <li class="location">
+        <img class="main-img" src="assets/img/my-photo.jpg" alt="My photo" draggable="false"/>
+        <h1 class="title">Maria Koroleva</h1>
+        <section>
+          <h2 class="section__title">Contacts</h2>
+          <ul class="contacts">
+            <li class="contacts__item location">
               <img class="location-icon" src="assets/img/location.png" alt="Location icon" width="25" height="25" />
               <div>Minsk (Belarus)<br>Nairobi (Kenya)</div>
             </li>
-            <li>
+            <li class="contacts__item">
               <img class="icon" src="assets/img/email.png" alt="E-mail icon" width="25" height="25" />
               <p>mkoroleva5@gmail.com</p>
             </li>
-            <li>
+            <li class="contacts__item">
               <img class="icon" src="assets/img/telegram.png" alt="Telegram icon" width="25" height="25" />
-              <a href="https://t.me/mkoroleva5" target="_blank">@mkoroleva5</a>
+              <a class="contacts__link" href="https://t.me/mkoroleva5" target="_blank">@mkoroleva5</a>
             </li>
-            <li>
+            <li class="contacts__item">
               <img class="icon" src="assets/img/github.png" alt="Github icon" width="25" height="25" />
-              <a href="https://github.com/mkoroleva5" target="_blank">mkoroleva5</a>
+              <a class="contacts__link" href="https://github.com/mkoroleva5" target="_blank">mkoroleva5</a>
             </li>
-            <li>
+            <li class="contacts__item">
               <img class="icon" src="assets/img/linkedin.png" alt="Linkedin icon" width="25" height="25" />
-              <a href="https://www.linkedin.com/in/mkoroleva5/" target="_blank">mkoroleva5</a>
+              <a class="contacts__link" href="https://www.linkedin.com/in/mkoroleva5/" target="_blank">mkoroleva5</a>
             </li>
           </ul>
         </section>
-        <section class="section" id="courses">
-          <h2 class="section-title courses-title">Courses</h2>
-          <ul class="courses">
-            <li class="course">HTML and CSS Courses on codecademy.com</li>
-            <li class="course"><b>The Rolling Scopes School</b> «JavaScript/Front-end. Pre-school»</li>
-            <li class="course"><b>The Rolling Scopes School</b> «JavaScript/Front-end. Frontend developer»</li>
-            <li class="course"><b>The Rolling Scopes School</b> «JavaScript/Front-end. React»</li>
+        <section>
+          <h2 class="section__title courses-title">Courses</h2>
+          <ul class="section__list">
+            <li>HTML and CSS Courses on codecademy.com</li>
+            <li><b>The Rolling Scopes School</b> «JavaScript/Front-end. Pre-school»</li>
+            <li><b>The Rolling Scopes School</b> «JavaScript/Front-end. Frontend developer»</li>
+            <li><b>The Rolling Scopes School</b> «JavaScript/Front-end. React»</li>
           </ul>
         </section>
-        <section class="section" id="languages">
-          <h2 class="section-title">Languages</h2>
-          <ul>
+        <section>
+          <h2 class="section__title">Languages</h2>
+          <ul class="section__list">
             <li>English – B2</li>
             <li>Italian – B2</li>
             <li>Belarusian - native</li>
@@ -62,20 +58,20 @@
         </section>
       </div>
       <div class="column column-right">
-        <section class="section-name d-none">
-          <h1>Maria Koroleva</h1>
+        <section class="section__main">
+          <h1 class="main-title">Maria Koroleva</h1>
           <h2 class="speciality">Frontend developer</h2>
         </section>
-        <section class="section" id="summary">
-          <h2 class="section-title about-title">About me</h2>
+        <section>
+          <h2 class="section__title about-title">About me</h2>
           <hr />
           <div class="about">
             The Rolling Scopes School (JavaSctipt/Front-end) - position 15 out of 1250.<br />The
             Rolling Scopes School (Pre-school) - position 1 out of 11000.
           </div>
         </section>
-        <section class="section" id="stack">
-          <h2 class="section-title about-title">Actual stack</h2>
+        <section>
+          <h2 class="section__title stack-title">Actual stack</h2>
           <hr />
           <div class="about">
             <ul>
@@ -85,145 +81,132 @@
             </ul>
           </div>
         </section>
-        <div class="projects-block">
-          <section class="section" id="projects">
-            <h2 class="section-title projects-title">Projects</h2>
-            <hr />
-            <div class="projects-wrapper">
-              <div class="projects-item">
-                <div class="project-info">
-                  <a
-                    class="project-title"
-                    href="https://github.com/mkoroleva5/rs_GraphiQL_front"
-                    target="_blank"
-                    >GraphiQL</a
-                  >
-                  <div>
-                    Clone of GraphiQL - GraphQL integrated development environment (IDE).
-                  </div>
-                  <div>Tech stack: React, TypeScript, Vite, Redux Toolkit, Firebase, Axios, i18n, CodeMirror, React Hook Form, React Toastify</div>
-                </div>
-              </div>
-              <div class="projects-item">
-                <div class="project-info">
-                  <a
-                    class="project-title"
-                    href="https://github.com/MOONcitizenX/rs-blazing-8-client"
-                    target="_blank"
-                    >Blazing 8s</a
-                  >
-                  <div>
-                    Clone of card game "Blazing 8s" with own multiplayer back-end and colorful
-                    animations.
-                  </div>
-                  <div>
-                    Tech stack: React, TypeScript, Vite, React Spring, Zustand, NestJS, Socket.io
-                  </div>
-                </div>
-              </div>
-              <div class="projects-item">
-                <div class="project-info">
-                  <a
-                    class="project-title"
-                    href="https://github.com/mkoroleva5/online-store"
-                    target="_blank"
-                    >Online store</a
-                  >
-                  <div>Online store of healthy food built with React.</div>
-                  <div>Tech stack: React, TypeScript, Vite, Vitest, React Testing Library</div>
-                </div>
-              </div>
-              <div class="projects-item">
-                <div class="project-info">
-                  <a
-                    class="project-title"
-                    href="https://github.com/mkoroleva5/rsschool-react-course"
-                    target="_blank"
-                    >React app</a
-                  >
-                  <div>React app with Unsplash API fetching, forms, own server and SSR.</div>
-                  <div>Tech stack: React, TypeScript, ExpressJS, SSR, Vite, Vitest, React Testing Library, Cypress, Redux Toolkit, AsyncThunk, React hook form</div>
-                </div>
-              </div>
-              <div class="projects-item">
-                <div class="project-info">
-                  <a
-                    class="project-title"
-                    href="https://mkoroleva5-gem-puzzle.netlify.app/"
-                    target="_blank"
-                    >Gem Puzzle</a
-                  >
-                  <div>
-                    The classic "15 puzzle" game with resizable fields, stoppable timer and
-                    drag'n'drop.
-                  </div>
-                  <div>Tech stack: JavaScript, HTML5, CSS3, Webpack</div>
-                </div>
-              </div>
-              <div class="projects-item">
-                <div class="project-info">
-                  <a
-                    class="project-title"
-                    href="https://mkoroleva5.github.io/Momentum-App/"
-                    target="_blank"
-                    >Momentum</a
-                  >
-                  <div>
-                    Clone of Momentum app with weather widget, custom player, todo list etc.
-                  </div>
-                  <div>Tech stack: JavaScript, HTML5, CSS3, Webpack</div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <section class="section" id="experience">
-          <h2 class="section-title">Experience</h2>
+        <section class="section__projects">
+          <h2 class="section-title projects-title">Projects</h2>
           <hr />
-          <div class="experience">
-          <div class="experience-left">
-            <div class="exp">
-              <p class="date">2017-2022</p>
-              <div class="exp-list">
-                <p class="org-name">Biogarden LLC<br>(Minsk, Belarus)</p>
-                <p>Head of E-commerce</p>
+          <div class="projects__wrapper">
+            <div class="projects__item">
+              <a
+                class="project-title"
+                href="https://github.com/mkoroleva5/rs_GraphiQL_front"
+                target="_blank"
+                >GraphiQL</a
+              >
+              <div>
+                Clone of GraphiQL - GraphQL integrated development environment (IDE).
+              </div>
+              <div>Tech stack: React, TypeScript, Vite, Redux Toolkit, Firebase, Axios, i18n, CodeMirror, React Hook Form, React Toastify</div>
+            </div>
+            <div class="projects__item">
+              <a
+                class="project-title"
+                href="https://github.com/MOONcitizenX/rs-blazing-8-client"
+                target="_blank"
+                >Blazing 8s</a
+              >
+              <div>
+                Clone of card game "Blazing 8s" with own multiplayer back-end and colorful
+                animations.
+              </div>
+              <div>
+                Tech stack: React, TypeScript, Vite, React Spring, Zustand, NestJS, Socket.io
               </div>
             </div>
-            <div class="exp">
-              <p class="date">2016</p>
-              <div class="exp-list">
-                <p class="org-name">Farmin ALC (Minsk, Belarus)</p>
-                <p>Sales representative</p>
+            <div class="projects__item">
+              <a
+                class="project-title"
+                href="https://github.com/mkoroleva5/online-store"
+                target="_blank"
+                >Online store</a
+              >
+              <div>Online store of healthy food built with React.</div>
+              <div>Tech stack: React, TypeScript, Vite, Vitest, React Testing Library</div>
+            </div>
+            <div class="projects__item">
+              <a
+                class="project-title"
+                href="https://github.com/mkoroleva5/rsschool-react-course"
+                target="_blank"
+                >React app</a
+              >
+              <div>React app with Unsplash API fetching, forms, own server and SSR.</div>
+              <div>Tech stack: React, TypeScript, ExpressJS, SSR, Vite, Vitest, React Testing Library, Cypress, Redux Toolkit, AsyncThunk, React hook form</div>
+            </div>
+            <div class="projects__item">
+              <a
+                class="project-title"
+                href="https://github.com/mkoroleva5/async-race"
+                target="_blank"
+                >Async Race</a
+              >
+              <div>
+                Race created using communication with a server (fetch, REST API), async coding /
+                promises and JS animations.
+              </div>
+              <div>Tech stack: JavaScript, HTML5, CSS3, Vite</div>
+            </div>
+            <div class="projects__item">
+              <a
+                class="project-title"
+                href="https://mkoroleva5-gem-puzzle.netlify.app/"
+                target="_blank"
+                >Gem Puzzle</a
+              >
+              <div>
+                The classic "15 puzzle" game with resizable fields, stoppable timer and
+                drag'n'drop.
+              </div>
+              <div>Tech stack: JavaScript, HTML5, CSS3, Webpack</div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2 class="section__title">Experience</h2>
+          <hr />
+          <div class="experience__wrapper">
+          <div class="experience__left">
+            <div class="experience__item">
+              <p class="experience__date">2017-2022</p>
+              <div class="experience__desc">
+                <p class="experience__org">Biogarden LLC<br>(Minsk, Belarus)</p>
+                <p class="experience__position">Head of E-commerce</p>
+              </div>
+            </div>
+            <div class="experience__item">
+              <p class="experience__date">2016</p>
+              <div class="experience__desc">
+                <p class="experience__org">Farmin ALC (Minsk, Belarus)</p>
+                <p class="experience__position">Sales representative</p>
               </div>
             </div>
           </div>
-          <div class="experience-right">
-            <div class="exp">
-              <p class="date">2015</p>
-              <div class="exp-list">
-                <p class="org-name">Tour operator Gartour (Milan, Italy)</p>
-                <p>Tourism manager</p>
+          <div class="experience__right">
+            <div class="experience__item">
+              <p class="experience__date">2015</p>
+              <div class="experience__desc">
+                <p class="experience__org">Tour operator Gartour (Milan, Italy)</p>
+                <p class="experience__position">Tourism manager</p>
               </div>
             </div>
-            <div class="exp">
-              <p class="date">2013-2014</p>
-              <div class="exp-list">
-                <p class="org-name">Embassy of Italian Republic (Minsk, Belarus)</p>
-                <p>Account manager</p>
+            <div class="experience__item">
+              <p class="experience__date">2013-2014</p>
+              <div class="experience__desc">
+                <p class="experience__org">Embassy of Italian Republic (Minsk, Belarus)</p>
+                <p class="experience__position">Account manager</p>
               </div>
             </div>
           </div>
         </section>
-        <section class="section" id="education">
-          <h2 class="section-title education-title">Education</h2>
+        <section class="section__education">
+          <h2 class="section__title education-title">Education</h2>
           <hr />
-          <div class="exp">
-            <p class="date">2011-2016</p>
-            <div class="exp-list">
-              <p class="org-name">
+          <div class="experience__item">
+            <p class="experience__date">2011-2016</p>
+            <div class="experience__desc">
+              <p class="experience__org">
                 Belarusian State University, Faculty of International Relations
               </p>
-              <p>
+              <p class="experience__position">
                 Qualification: economist-manager and interpreter-translator (English and Italian
                 languages)
               </p>
