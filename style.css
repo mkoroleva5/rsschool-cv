@@ -1,0 +1,283 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('assets/fonts/Raleway-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('assets/fonts/Raleway-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('assets/fonts/nunito-v25-latin-regular.woff');
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #3a3843;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: block;
+  margin: 20px auto;
+  margin-top: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.section__main {
+  margin-bottom: 20px;
+}
+
+.contacts {
+  list-style: none;
+  text-align: left;
+  padding: 0px;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+}
+
+.contacts__link {
+  color: white;
+}
+
+.icon {
+  margin: 5px 10px 5px 0;
+  vertical-align: middle;
+}
+
+.contacts__link {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.contacts__link:hover {
+  color: #465f46;
+}
+
+.column-left {
+  width: 27%;
+  padding: 0px 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #adc1aa;
+  color: white;
+}
+
+.column-right {
+  width: 73%;
+  padding: 0px 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+}
+
+.title {
+  display: none;
+}
+
+.section__title {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.main-title {
+  font-family: 'Raleway';
+  font-size: 38px;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.speciality {
+  font-weight: 400;
+  font-size: 26px;
+  margin: 0;
+}
+
+.about-title {
+  margin-top: 0;
+}
+
+hr {
+  border: 0;
+  background-color: #ecede5;
+  height: 3px;
+}
+
+.location {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 6px;
+}
+
+.location-icon {
+  margin: 9px 10px 5px 0;
+}
+
+.about {
+  margin-bottom: 0;
+}
+
+.section__list {
+  padding-left: 18px;
+}
+
+.section__projects {
+  width: 100%;
+}
+
+.projects__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-image {
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #bac0b6;
+  filter: saturate(80%) brightness(1.03);
+  aspect-ratio: 2/1;
+}
+
+.project-title {
+  color: #3a3843;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.project-title:hover {
+  color: #adc1aa;
+}
+
+.experience__date {
+  width: 115px;
+  padding: 0px 4px 3px 4px;
+  display: flex;
+  flex-direction: column;
+  background-color: #adc1aa;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.experience__desc {
+  width: 85%;
+  padding: 0px 10px;
+}
+
+.experience__item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.experience__org,
+.experience__position {
+  margin: 0;
+}
+
+.experience__org {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.experience__wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.experience__left {
+  width: 50%;
+}
+
+.experience__right {
+  width: 50%;
+}
+
+.section__education {
+  margin-bottom: 33px;
+}
+
+.education-title,
+.projects-title {
+  margin-top: 10px;
+}
+
+.courses-title {
+  width: 115px;
+  padding: 3px 4px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: #9aae97;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  border: 0px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .title {
+    display: block;
+  }
+
+  .about-title,
+  .stack-title {
+    margin-top: 20px;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .section__main {
+    display: none;
+  }
+
+  .main-img {
+    max-width: 350px;
+    margin-top: 30px;
+  }
+}
