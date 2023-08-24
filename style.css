@@ -5,14 +5,14 @@
 }
 
 @font-face {
-  font-family: 'Raleway';
-  src: url('assets/fonts/Raleway-Bold.ttf');
+  font-family: 'Nunito';
+  src: url('assets/fonts/Nunito-Bold.ttf');
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Nunito';
-  src: url('assets/fonts/nunito-v25-latin-regular.woff');
+  src: url('assets/fonts/Nunito-Regular.ttf');
   font-weight: 400;
 }
 
@@ -108,7 +108,7 @@ body {
 }
 
 .main-title {
-  font-family: 'Raleway';
+  font-family: 'Nunito';
   font-size: 38px;
   align-items: center;
   margin-top: 40px;
@@ -129,10 +129,6 @@ hr {
   border: 0;
   background-color: #ecede5;
   height: 3px;
-}
-
-.location {
-  margin-bottom: 5px;
 }
 
 .location-icon {
@@ -187,7 +183,7 @@ hr {
   flex-direction: column;
   background-color: #adc1aa;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: bold;
   font-size: 16px;
   border: 0px;
@@ -244,7 +240,7 @@ hr {
   flex-direction: column;
   background-color: white;
   color: #9aae97;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: bold;
   font-size: 22px;
   border: 0px;
