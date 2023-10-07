@@ -217,19 +217,20 @@ hr {
 
 .experience__wrapper {
   display: flex;
-  gap: 20px;
-}
-
-.experience__left {
-  width: 50%;
-}
-
-.experience__right {
-  width: 50%;
+  flex-direction: column;
 }
 
 .section__education {
   margin-bottom: 33px;
+}
+
+.list {
+  margin: 0 20px;
+  padding-left: 18px;
+}
+
+.exp-list {
+  margin: 10px 0;
 }
 
 .education-title,
