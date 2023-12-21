@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'Raleway';
-  src: url('assets/fonts/Raleway-Regular.ttf');
+  font-family: "Raleway";
+  src: url("assets/fonts/Raleway-Regular.ttf");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Raleway';
-  src: url('assets/fonts/Raleway-Bold.ttf');
+  font-family: "Raleway";
+  src: url("assets/fonts/Raleway-Bold.ttf");
   font-weight: 700;
 }
 
 @font-face {
-  font-family: 'Nunito';
-  src: url('assets/fonts/nunito-v25-latin-regular.woff');
+  font-family: "Nunito";
+  src: url("assets/fonts/nunito-v25-latin-regular.woff");
   font-weight: 400;
 }
 
@@ -25,9 +25,10 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #3a3843;
   max-width: 1024px;
+  height: 1458px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -78,6 +79,7 @@ body {
 
 .column-left {
   width: 27%;
+  height: 100%;
   padding: 0px 30px;
   margin: 0 auto;
   display: flex;
@@ -96,6 +98,7 @@ body {
 
 .main {
   display: flex;
+  height: 100%;
 }
 
 .title {
@@ -108,7 +111,7 @@ body {
 }
 
 .main-title {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 38px;
   align-items: center;
   margin-top: 40px;
@@ -129,10 +132,6 @@ hr {
   border: 0;
   background-color: #ecede5;
   height: 3px;
-}
-
-.location {
-  margin-bottom: 5px;
 }
 
 .location-icon {
@@ -180,6 +179,12 @@ hr {
   color: #adc1aa;
 }
 
+.experience__block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+}
+
 .experience__date {
   width: 115px;
   padding: 0px 4px 3px 4px;
@@ -187,7 +192,7 @@ hr {
   flex-direction: column;
   background-color: #adc1aa;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 16px;
   border: 0px;
@@ -245,7 +250,7 @@ hr {
   flex-direction: column;
   background-color: white;
   color: #9aae97;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 22px;
   border: 0px;
